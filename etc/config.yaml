@@ -1,0 +1,16 @@
+Log:
+  Dir: /var/logs/mysql_proxy
+  Level: debug # 合法选项 "panic" "fatal" "error" "warn" "warning" "info" "debug" "trace"
+
+ProxyMysql:
+  Host: 127.0.0.1
+  Port: 4406
+  User: root
+  Pwd: 123456
+
+RealMysql:
+  Host: 127.0.0.1
+  Port: 3306
+  User: root
+  Pwd: 123456
+  Db: flow
